@@ -54,6 +54,7 @@
     height: 56px;
     width: 100%;
     margin: 0px;
+    z-index: 3;
     background-color: rgba(0, 0, 0, 0.80);
 }
 
@@ -62,6 +63,7 @@
     border-radius: 6px;
     padding: 0px 12px;
     margin: 0px 8px;
+    cursor: pointer;
 }
 
 .footer-icon i {
