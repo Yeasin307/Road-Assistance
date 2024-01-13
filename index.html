@@ -18,26 +18,42 @@
         <div class="row header-nav">
             <div class="col-6 d-flex align-items-center">
                 <img class="left-img" src="./images/header/header-1.png" alt="">
-                <h5 class="text-white ms-3">24/7</h5>
+                <h5 class="ms-3" style="color: #fabf8f;">24/7</h5>
             </div>
-            <div class="col-6 row d-flex align-items-center">
-                <div class="col-4 text-center nav-link">
+            <div class="col-6 row d-none d-sm-flex align-items-center">
+                <div class="col-4 text-start nav-link">
                     <a href="http://127.0.0.1:5501/assistance.html">
-                        <P class="header-text my-0">ROAD SIDE ASSISTANCE</P>
+                        <P class="header-text my-0">Road Side Assistance</P>
                         <img class="right-img" src="./images/header/header-2.png" alt="">
                     </a>
                 </div>
-                <div class="col-4 text-center nav-link">
+                <div class="col-4 text-start nav-link">
                     <a href="http://127.0.0.1:5501/index.html">
-                        <P class="header-text my-0">CORPORATE LIMO SERVICE</P>
+                        <P class="header-text my-0">Corporate Limo Service</P>
                         <img class="right-img" src="./images/header/header-3.png" alt="">
                     </a>
                 </div>
-                <div class="col-4 text-center nav-link">
+                <div class="col-4 text-start nav-link">
                     <a href="http://127.0.0.1:5501/index.html">
-                        <P class="header-text my-0">CAR TRANSFARE</P>
+                        <P class="header-text my-0">Car Transfer</P>
                         <img class="right-img" src="./images/header/header-4.png" alt="">
                     </a>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center d-md-none ">
+                <button class="btn btn-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight">
+                    <i class="bi bi-list fs-1 text-white"></i>
+                </button>
+            </div>
+            <div class="offcanvas w-75 offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas</h5>
+                </div>
+                <div class="offcanvas-body">
+                    ...
                 </div>
             </div>
         </div>
@@ -85,6 +101,8 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <img style="position: fixed; top: 10%; left: 50%; transform: translate(-50%, 0);"
+                src="./images/header/header-5.png" alt="">
         </section>
     </main>
     <footer>

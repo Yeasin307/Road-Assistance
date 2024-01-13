@@ -1,22 +1,22 @@
 .slider-btn {
     display: inline-block;
     padding: 4px 20px;
-    color: rgb(210, 152, 18);
-    border: 2px solid rgb(210, 152, 18);
+    color: #fabf8f;
+    border: 2px solid #fabf8f;
     cursor: pointer;
     margin-bottom: 20px;
 }
 
 .slider-btn:hover {
     color: white;
-    background-color: rgb(210, 152, 18);
+    background-color: #fabf8f;
 }
 
 .carousel-indicators button {
     width: 16px !important;
     height: 16px !important;
     border-radius: 100%;
-    background-color: rgb(210, 152, 18) !important;
+    background-color: #fabf8f !important;
 }
 
 .header-nav {
@@ -41,7 +41,7 @@
 .header-text {
     font-size: 12px;
     font-weight: bold;
-    color: white;
+    color: #fabf8f;
 }
 
 .nav-link a {
@@ -71,9 +71,16 @@
 
 .contact-btn {
     padding: 4px 20px;
-    color: rgb(210, 152, 18);
-    border: 2px solid rgb(210, 152, 18);
+    color: #fabf8f;
+    border: 2px solid #fabf8f;
     cursor: pointer;
+}
+
+.service-header {
+    height: 72px;
+    width: 100%;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.80);
 }
 
 .img-border {
@@ -85,5 +92,5 @@
 
 .service-title {
     font-size: 14px;
-    color: rgb(210, 152, 18);
+    color: #fabf8f;
 }
