@@ -76,6 +76,7 @@
     color: #fabf8f;
     border: 2px solid #fabf8f;
     cursor: pointer;
+    margin: 0px;
 }
 
 .service-header {
@@ -95,4 +96,13 @@
 .service-title {
     font-size: 14px;
     color: #fabf8f;
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0px;
+    height: 72px;
+    width: 100%;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.80);
 }
