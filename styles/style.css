@@ -21,12 +21,14 @@
 
 .header-nav {
     position: fixed;
+    color: #fabf8f;
+    font-size: large;
     top: 0px;
     z-index: 2;
     height: 72px;
     width: 100%;
     margin: 0px;
-    background-color: rgba(0, 0, 0, 0.80);
+    background-color: rgba(0, 0, 0, 0.70);
 }
 
 .left-img {
@@ -39,7 +41,7 @@
 }
 
 .header-text {
-    font-size: 12px;
+    font-size: medium;
     font-weight: bold;
     color: #fabf8f;
 }
@@ -75,6 +77,7 @@
     padding: 4px 20px;
     color: #fabf8f;
     border: 2px solid #fabf8f;
+    border-bottom: none;
     cursor: pointer;
     margin: 0px;
 }
@@ -104,6 +107,54 @@
     height: 100vh;
 }
 
+.phone {
+    font-size: larger;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.offcanvas {
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+.offcanvas-footer {
+    text-align: center !important;
+    margin-bottom: 20%;
+}
+
+.offcanvas-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    padding-bottom: 10px;
+}
+
+ul li a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fabf8f;
+    font-weight: bold;
+}
+
+ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.padding-bottom-10p {
+    padding-bottom: 10%;
+}
+
 @media only screen and (max-width: 575px) {
     .section-height {
         height: 100%;
@@ -126,6 +177,37 @@
 
     .img-border {
         width: 100px;
+    }
+
+    .hide-on-desktop {
+        display: none;
+    }
+
+    footer {
+        bottom: 0px;
+        width: 100%;
+        margin: 0px;
+        z-index: 3;
+    }
+
+    .footer-phone {
+        text-decoration: none;
+        color: white;
+        line-height: 50px;
+        font-weight: bold;
+        size: 24px;
+    }
+
+    .footer-phone-icon {
+        padding-top: 10px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .footer-phone-icon i {
+        font-size: 24px;
+        padding: 8px 8px;
+        color: rgba(255, 255, 255, 0.80);
     }
 }
 
@@ -158,5 +240,11 @@
 
     .service-details {
         height: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hide-on-mobile {
+        display: none;
     }
 }
