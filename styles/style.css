@@ -41,7 +41,7 @@
 }
 
 .header-text {
-    font-size: medium;
+    font-size: 12px;
     font-weight: bold;
     color: #fabf8f;
 }
@@ -53,7 +53,7 @@
 .footer-nav {
     position: fixed;
     bottom: 0px;
-    height: 56px;
+    height: 80px;
     width: 100%;
     margin: 0px;
     z-index: 3;
@@ -77,7 +77,7 @@
     padding: 4px 20px;
     color: #fabf8f;
     border: 2px solid #fabf8f;
-    border-bottom: none;
+    /* border-bottom: none; */
     cursor: pointer;
     margin: 0px;
 }
